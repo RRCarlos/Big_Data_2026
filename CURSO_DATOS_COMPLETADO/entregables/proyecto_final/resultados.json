@@ -1,0 +1,18 @@
+{
+  "pregunta_analitica": "Analizar rendimiento comercial y predecir exito de clientes",
+  "metricas": {
+    "clasificacion": {"accuracy": 0.96, "precision": 1.00, "recall": 0.89, "f1": 0.94},
+    "regresion": {"MAE": 100.38},
+    "clustering": {"n_clusters": 3}
+  },
+  "conclusiones": [
+    "Features derivadas son predictores importantes",
+    "Prediccion de abandono con 96% accuracy",
+    "3 segmentos distintos identificados"
+  ],
+  "propuestas": [
+    "Modelo en produccion",
+    "Campanas personalizadas",
+    "Optimizar inversion"
+  ]
+}
