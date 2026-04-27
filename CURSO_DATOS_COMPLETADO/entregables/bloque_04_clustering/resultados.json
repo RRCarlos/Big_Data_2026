@@ -1,0 +1,10 @@
+{
+  "kmeans": {"k_optimo": 4, "silhouette": 0.793},
+  "dbscan": {"n_clusters": 3, "noise_points": 0, "silhouette": 0.681},
+  "perfil_clusters": {
+    "Cluster_0": {"n_clientes": 60, "perfil": "frecuencia_alta"},
+    "Cluster_1": {"n_clientes": 60, "perfil": "alto_valor"},
+    "Cluster_2": {"n_clientes": 60, "perfil": "alto_importe"},
+    "Cluster_3": {"n_clientes": 60, "perfil": "bajo_valor"}
+  }
+}

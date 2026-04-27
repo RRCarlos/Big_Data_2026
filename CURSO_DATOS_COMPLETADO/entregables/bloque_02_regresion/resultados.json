@@ -1,0 +1,9 @@
+{
+  "modelos": [
+    {"modelo": "Linear Regression", "MAE": 253.33, "RMSE": 316.62, "R2": 0.3625},
+    {"modelo": "Ridge", "MAE": 251.03, "RMSE": 312.76, "R2": 0.3779},
+    {"modelo": "Random Forest", "MAE": 280.24, "RMSE": 342.31, "R2": 0.2549}
+  ],
+  "mejor_modelo": "Ridge",
+  "mejores_metricas": {"MAE": 251.03, "RMSE": 312.76, "R2": 0.378}
+}

@@ -1,0 +1,17 @@
+{
+  "ventas_totales": 340149.86,
+  "ventas_medias": 1889.72,
+  "ventas_mediana": 1868.09,
+  "num_registros": 180,
+  "num_canales": 4,
+  "num_regiones": 5,
+  "canal_top": "web",
+  "ventas_canal_top": 171402.7,
+  "region_top": "Este",
+  "ventas_region_top": 82244.11,
+  "conclusiones": [
+    "El canal web es el que genera mayores ventas totales (171,402.70)",
+    "La región Este lidera en volumen de ventas (82,244.11)",
+    "El ticket medio general es de 1,889.72"
+  ]
+}

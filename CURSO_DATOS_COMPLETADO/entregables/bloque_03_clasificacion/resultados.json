@@ -1,0 +1,8 @@
+{
+  "modelos": [
+    {"modelo": "Logistic Regression", "accuracy": 0.70, "precision": 0.62, "recall": 0.44, "f1": 0.52, "roc_auc": 0.78},
+    {"modelo": "Random Forest", "accuracy": 0.96, "precision": 1.00, "recall": 0.89, "f1": 0.94, "roc_auc": 0.98}
+  ],
+  "mejor_modelo": "Random Forest",
+  "metricas_mejor": {"accuracy": 0.96, "precision": 1.00, "recall": 0.89, "f1": 0.94}
+}

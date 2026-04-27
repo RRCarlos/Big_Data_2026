@@ -1,0 +1,13 @@
+{
+  "baseline": {
+    "naive": {"MAE": 14.02, "RMSE": 16.74, "R2": -2.16},
+    "media_movil": {"MAE": 16.26, "RMSE": 18.77, "R2": -2.97}
+  },
+  "modelo_supervisado": {
+    "modelo": "Random Forest Regressor",
+    "MAE": 4.00,
+    "RMSE": 5.04,
+    "R2": 0.71
+  },
+  "prediccion_30_dias": {"promedio": 138.77}
+}
