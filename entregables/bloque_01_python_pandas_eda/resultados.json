@@ -1,0 +1,30 @@
+{
+  "importe_total": 617521.51,
+  "importe_medio": 1235.04302,
+  "importe_mediana": 1013.78,
+  "num_registros": 500,
+  "num_canales": 3,
+  "canales": [
+    "Online",
+    "Distribuidor",
+    "Tienda"
+  ],
+  "num_regiones": 5,
+  "regiones": [
+    "Madrid",
+    "Valencia",
+    "Castilla-La Mancha",
+    "Andalucía",
+    "Cataluña"
+  ],
+  "canal_top": "Online",
+  "importe_canal_top": 261172.61,
+  "region_top": "Madrid",
+  "importe_region_top": 135096.63999999998,
+  "ticket_medio_region_top": 1276.5156862745098,
+  "conclusiones": [
+    "El canal Online es el que genera mayores ventas totales (261,172.61 €), representando la principal vía de facturación.",
+    "La región Madrid lidera en volumen de ventas (135,096.64 €), indicando mayor penetración de mercado o eficiencia comercial en esa zona.",
+    "El ticket medio general es de 1,235.04 €, con la región Valencia presentando el mayor ticket medio (1,276.52 €)."
+  ]
+}

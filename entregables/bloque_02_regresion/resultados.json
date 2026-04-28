@@ -1,0 +1,45 @@
+{
+  "modelos": [
+    {
+      "modelo": "Linear Regression",
+      "MAE": 234.31874743568147,
+      "RMSE": 312.7475528121238,
+      "R2": 0.8592069394771429
+    },
+    {
+      "modelo": "Ridge",
+      "MAE": 232.83804502874665,
+      "RMSE": 313.3827872081711,
+      "R2": 0.8586344174980971
+    },
+    {
+      "modelo": "Random Forest",
+      "MAE": 145.768101,
+      "RMSE": 225.28449732035867,
+      "R2": 0.9269439774265542
+    }
+  ],
+  "mejor_modelo": "Random Forest",
+  "mejores_metricas": {
+    "MAE": 145.768101,
+    "RMSE": 225.28449732035867,
+    "R2": 0.9269439774265542
+  },
+  "analisis_region": {
+    "region_top": "Madrid",
+    "importe_region_top": 135629.17,
+    "importe_por_region": {
+      "Madrid": 135629.17,
+      "Valencia": 130746.69,
+      "Andalucía": 123773.33,
+      "Cataluña": 106247.09,
+      "Castilla-La Mancha": 106185.85
+    }
+  },
+  "conclusiones": [
+    "El modelo Random Forest presenta el menor MAE (145.77), indicando las predicciones más precisas.",
+    "El R² de 0.9269 indica que el modelo explica el 92.7% de la variabilidad en las ventas.",
+    "Madrid es la región con mayor importe total (135,629.17 €), siendo el público objetivo principal para campañas de marketing.",
+    "Random Forest captura mejor las relaciones no lineales entre features."
+  ]
+}

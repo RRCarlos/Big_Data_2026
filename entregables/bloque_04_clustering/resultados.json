@@ -1,0 +1,34 @@
+{
+  "kmeans": {
+    "k_optimo": 2,
+    "silhouette": 0.4822864496128852,
+    "inertia": 1183.5386316746424
+  },
+  "dbscan": {
+    "n_clusters": 6,
+    "noise_points": 217,
+    "silhouette": -0.02860122521577233
+  },
+  "perfil_clusters": {
+    "Cluster_1": {
+      "n_clientes": 177,
+      "pct": 39.33333333333333,
+      "ingresos_medio": 24220.901378697985,
+      "compras_12m_media": 3.0239163254993224,
+      "ticket_medio": 40.341658721256756
+    },
+    "Cluster_0": {
+      "n_clientes": 273,
+      "pct": 60.66666666666667,
+      "ingresos_medio": 54003.76002424658,
+      "compras_12m_media": 15.029040726643224,
+      "ticket_medio": 135.30141325463256
+    }
+  },
+  "conclusiones": [
+    "K=2 es el numero optimo de clusters (silhouette=0.4823)",
+    "Se identificaron 2 segmentos de clientes",
+    "DBSCAN encontro 6 clusters con 217 puntos de ruido",
+    "Los clusters permiten segmentacion personalizada"
+  ]
+}

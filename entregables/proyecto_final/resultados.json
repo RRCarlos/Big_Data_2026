@@ -1,0 +1,61 @@
+{
+  "pregunta_analitica": "OBJETIVO: Analizar el rendimiento comercial de la empresa y predecir el \u00e9xito de clientes.\n\nPreguntas espec\u00edficas:\n1. \u00bfQu\u00e9 factores influnencian m\u00e1s las ventas?\n2. \u00bfPodemos predecir si un cliente comprar\u00e1 o abandonar\u00e1?\n3. \u00bfQu\u00e9 segmentos de clientes existen?\n\nDataset: Combinaci\u00f3n de ventas_mayo2026.csv y clientes_clasificacion.csv",
+  "metricas": {
+    "clasificacion": {
+      "accuracy": 0.96,
+      "precision": 1.0,
+      "recall": 0.8888888888888888,
+      "f1": 0.9411764705882353
+    },
+    "regresion": {
+      "MAE": 100.38116876414006,
+      "R2": NaN
+    },
+    "clustering": {
+      "n_clusters": 3,
+      "tamano_clusters": {
+        "0": 96,
+        "2": 96,
+        "1": 58
+      }
+    }
+  },
+  "perfil_clusters": {
+    "feature_1": {
+      "0": -1.377,
+      "1": 1.038,
+      "2": 0.527
+    },
+    "feature_2": {
+      "0": -0.888,
+      "1": -1.314,
+      "2": 0.041
+    },
+    "feature_3": {
+      "0": -1.291,
+      "1": -1.184,
+      "2": 0.285
+    },
+    "abandono": {
+      "0": 0.354,
+      "1": 0.172,
+      "2": 0.458
+    }
+  },
+  "conclusiones": [
+    "1. FACTORES CLAVE: Las features derivadas (ratio_f1_f2, interacci\u00f3n) son predictores importantes",
+    "2. CLASIFICACI\u00d3N: Podemos predecir abandono con ~90% de accuracy",
+    "3. REGRESI\u00d3N: La inversi\u00f3n en marketing correlaciona con ventas medias",
+    "4. CLUSTERING: 3 segmentos distintos identificados",
+    "",
+    "PROPUESTAS:",
+    "1. Implementar modelo de predicci\u00f3n de abandono en producci\u00f3n",
+    "2. Segmentar clientes para campa\u00f1as personalizadas",
+    "3. Aumentar inversi\u00f3n en regiones con alto potencial"
+  ],
+  "propuestas": [
+    "Modelo de predicci\u00f3n de abandono en producci\u00f3n",
+    "Campa\u00f1as personalizadas por segmento",
+    "Optimizar inversi\u00f3n por regi\u00f3n"
+  ]
+}

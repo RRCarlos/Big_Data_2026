@@ -1,0 +1,37 @@
+{
+  "baseline": {
+    "naive": {
+      "MAE": 18.230784313725493,
+      "RMSE": 22.52716860793198,
+      "R2": -0.190452270544754
+    },
+    "media_movil": {
+      "MAE": 23.368851540616262,
+      "RMSE": 28.261920567110398,
+      "R2": -0.8737088640977069
+    }
+  },
+  "modelo_supervisado": {
+    "modelo": "Random Forest Regressor",
+    "MAE": 18.120374509803934,
+    "RMSE": 22.836655697360875,
+    "R2": -0.22338676223320153
+  },
+  "prediccion_30_dias": {
+    "promedio": 230.21588095238096,
+    "nota": "Predicción basada en media móvil simple"
+  },
+  "limitaciones": [
+    "Serie relativamente corta",
+    "Features limitadas para captar estacionalidad",
+    "Sin información de variables externas",
+    "El modelo no captura tendencias complejas"
+  ],
+  "top_features": {
+    "media_3": 0.5930290501511102,
+    "dia_semana": 0.1017699567244584,
+    "std_3": 0.07336601947779324,
+    "lag_2": 0.04481764257106317,
+    "lag_14": 0.03530256073939526
+  }
+}
